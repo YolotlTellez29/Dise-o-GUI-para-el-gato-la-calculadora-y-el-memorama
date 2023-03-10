@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1556302132-40bb13638500?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    overflow: hidden;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    letter-spacing: 6px;
+    font-size: 20px;
+  }
+  
+  
+    
+    button {
+      background-color: #f5f5f5;
+      color: #222;
+      font-size: 28px;
+      border: none;
+      border-radius: 10px;
+      margin: 5px;
+      width: 60px;
+      height: 60px;
+      animation-name: pulse;
+      animation-duration: 0.3s;
+      animation-timing-function: ease-out;
+    }
+    
+    button:hover {
+      background-color: #eee;
+    }
+    
+    button:active {
+      background-color: #ccc;
+      animation-name: none;
+    }
+    @keyframes pulse {
+      from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(0.9);
+      }
+    }
+   
+    .operaciones {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-right: 1px;
+      animation-name: pulse;
+      animation-duration: 0.3s;
+      animation-timing-function: ease-out;
+    }
+    
+    .operaciones button {
+      width: 60px;
+      height: 60px;
+      margin: 5px;
+    }
+ 
+    .operaciones button:hover {
+      background-color: #222;
+      color: #f5f5f5;
+      cursor: pointer;
+    }
+    
+    
+    
+    
