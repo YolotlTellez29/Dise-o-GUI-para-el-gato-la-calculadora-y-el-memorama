@@ -3,7 +3,6 @@ var jugador = "X";
 function tirar(n) {
      if (tablero[n]!="") return;
      tablero[n]=jugador;
-     //document.getElementById("boton" + n).style.backgroundImage = "url('../" + jugador + ".gif')";
      document.getElementById("boton" + n).style.backgroundImage = "url('gifs/" + jugador + ".gif')";
      validarGanador();
      if (jugador == "X") {
